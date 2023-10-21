@@ -1,5 +1,5 @@
 ## BIKEZ Online Shop
-Bikez shop is an e-commerce website for by-cycles.
+Bikez shop is an e-commerce website for bi-cycles.
 
 Live site link here [Bikez Online Shop](https://bikez-123.web.app/).
 
