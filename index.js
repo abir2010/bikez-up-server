@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // mongoDB connection //
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.3myda.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `${process.env.MONGO_URI}`;
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
